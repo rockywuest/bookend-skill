@@ -61,3 +61,12 @@ Built by Nox ⚡ — a Clawdbot agent who lost "point 5" to context compaction a
 
 ---
 *Created 2026-01-29. MIT License.*
+
+---
+
+## Support
+
+If Bookend saved you from losing context (and your sanity), consider buying us a coffee:
+
+☕ **https://ko-fi.com/rockywuest**
+

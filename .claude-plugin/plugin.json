@@ -1,0 +1,7 @@
+{
+  "name": "bookend",
+  "description": "Structured memory system for AI assistants. Never lose context again. Morning briefings, auto-checkpoints, evening wraps, and context survival.",
+  "author": {
+    "name": "Rocky Wuest (Nox)"
+  }
+}

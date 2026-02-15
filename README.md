@@ -11,7 +11,7 @@
 
 ## Quick Start
 
-**1. Install the plugin**
+### 1. Install the plugin
 
 ```bash
 # In Claude Code
@@ -24,17 +24,18 @@ Or clone manually:
 git clone https://github.com/rockywuest/bookend-skill.git ~/.claude/plugins/cache/bookend/latest
 ```
 
-**2. Set up your workspace**
+### 2. Set up your workspace
 
-```
+```text
 /setup
 ```
 
 This creates `state/current.md`, `memory/`, `MEMORY.md`, and adds the bookend protocol to your `AGENTS.md`.
 
-**3. Start using it**
+### 3. Start using it
 
 Your agent will now automatically:
+
 - Run a morning briefing at session start
 - Checkpoint every ~30 minutes
 - Wrap up at end of day

@@ -19,15 +19,18 @@ This is what a typical session start looks like when the Bookend skill runs the 
 > You were working on the authentication refactor. The JWT middleware is done and tested. The session migration script is written but untested.
 >
 > **Top 3 priorities:**
+>
 > 1. Test and run the session migration script
 > 2. Update API docs for the new auth endpoints
 > 3. Review PR #47 (Maria's caching changes)
 >
 > **Open threads:**
+>
 > - Waiting on DevOps for staging env access (asked 2 days ago)
 > - Design review for settings page scheduled for Thursday
 >
 > **From yesterday's memory:**
+>
 > - Decided to use RS256 instead of HS256 for JWT signing (better for microservices)
 > - Found a bug in the rate limiter — fixed and deployed
 >

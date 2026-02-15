@@ -1,0 +1,11 @@
+# Markdown lint configuration
+# See: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Disable line length (skills need flexible line lengths)
+MD013: false
+
+# Allow inline HTML (badges use HTML img tags)
+MD033: false
+
+# Allow first line to not be a heading (frontmatter comes first)
+MD041: false

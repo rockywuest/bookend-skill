@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+
+# Node (for CI tooling)
+node_modules/
+
+# Runtime artifacts (these are user workspace files, not repo files)
+# Users create these in their own workspaces via the bookend system
+state/
+memory/

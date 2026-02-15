@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [master]
+
+jobs:
+  markdown-quality:
+    name: Markdown Quality
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Lint markdown
+        run: npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+
+      - name: Check links
+        run: npx --yes markdown-link-check README.md CONTRIBUTING.md --quiet || true

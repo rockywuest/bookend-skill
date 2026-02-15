@@ -56,7 +56,7 @@ AI assistants forget. Session ends, context gone. Even within a session, context
 
 **Bookend** implements a "bookend" pattern — structured check-ins at session start and end that capture state and ensure continuity.
 
-```
+```text
 Morning Briefing (Session Start)
 ├── Read state files → know where things stand
 ├── Check memory files → recall recent context
@@ -105,7 +105,7 @@ Your assistant wakes up fresh each session, but these files ARE its memory. Stru
 
 ## File Structure
 
-```
+```text
 your-workspace/
 ├── MEMORY.md           # Long-term memory (curated wisdom)
 ├── AGENTS.md           # Instructions (includes bookend protocol)
@@ -130,7 +130,7 @@ your-workspace/
 
 ### Option A: Plugin Install (recommended)
 
-```
+```text
 /plugin install bookend
 ```
 
@@ -153,7 +153,7 @@ Copy the snippet from [`templates/AGENTS-snippet.md`](templates/AGENTS-snippet.m
 ## Resources
 
 | Directory | What's Inside |
-|-----------|---------------|
+| --------- | ------------- |
 | [`templates/`](templates/) | Starter files for your workspace (state, memory, AGENTS.md snippet) |
 | [`examples/`](examples/) | Real-world examples of morning briefings, evening wraps, and filled state files |
 | [`references/`](references/) | Patterns, anti-patterns, and best practices for using Bookend effectively |

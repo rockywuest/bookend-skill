@@ -28,7 +28,7 @@ Run this mental test every time you checkpoint.
 The three memory layers serve different purposes. Don't mix them:
 
 | Layer | File | Content | Lifespan |
-|-------|------|---------|----------|
+| ----- | ---- | ------- | -------- |
 | **State** | `state/current.md` | What's happening RIGHT NOW | Overwritten every checkpoint |
 | **Daily** | `memory/YYYY-MM-DD.md` | What happened today (raw events) | Permanent (one per day) |
 | **Long-term** | `MEMORY.md` | Curated wisdom that applies across sessions | Permanent (actively maintained) |

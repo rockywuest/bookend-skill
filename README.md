@@ -13,8 +13,6 @@
 > to operationalize it. See [`SKILL.md`](SKILL.md) for the canonical definition and
 > [`examples/`](examples/) for filled-in session examples.
 
-
-
 ---
 
 ## Quick Start

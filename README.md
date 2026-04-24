@@ -7,6 +7,12 @@
 
 **Never lose context again. Structured memory system for AI assistants.**
 
+> **What is this repo?** A **methodology + skill plugin**, not a code library.
+> You don't `npm install` Bookend — you adopt the pattern (`state/current.md` files,
+> morning/evening routines) and use the included Claude Code skill (`skills/bookend/`)
+> to operationalize it. See [`SKILL.md`](SKILL.md) for the canonical definition and
+> [`examples/`](examples/) for filled-in session examples.
+
 ---
 
 ## Quick Start
